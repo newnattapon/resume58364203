@@ -1,0 +1,8 @@
+version: '3.5'
+services:
+  myapp:
+    image: theerawut/node-express
+    ports:
+      - "9999:3000"
+    command: "node index.js"
+
