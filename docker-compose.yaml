@@ -1,8 +1,8 @@
 version: '3.5'
 services:
   myapp:
-    image: theerawut/node-express
+    image: nattaponh58/resume58364203
     ports:
-      - "9999:3000"
+      - "8058:3000"
     command: "node index.js"
 
